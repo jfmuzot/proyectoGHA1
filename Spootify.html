@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #191414;
+            color: white;
+        }
+        header {
+            background-color: #1DB954;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .cta-button {
+            background-color: #1DB954;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #1ed760;
+        }
+        .main-banner {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://www.spotify.com/favicon.ico');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        .main-banner h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .main-banner p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #191414;
+            color: #B3B3B3;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #B3B3B3;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .artists {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+        .artist {
+            text-align: center;
+            margin: 20px;
+        }
+        .artist img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .artist-name {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Spotify</h1>
+        <a href="#" class="cta-button">Obtén Spotify</a>
+    </header>
+
+    <div class="main-banner">
+        <div>
+            <h2>Disfruta de música ilimitada</h2>
+            <p>Más de 50 millones de canciones. Conéctate con el mundo de la música.</p>
+            <a href="#" class="cta-button">Escucha Gratis</a>
+        </div>
+    </div>
+
+    <div class="artists">
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Ariana_Grande_2019.jpg" alt="Ariana Grande">
+            <p class="artist-name">Ariana Grande</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Billie_Eilish_2020.jpg" alt="Billie Eilish">
+            <p class="artist-name">Billie Eilish</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Drake_2018.jpg" alt="Drake">
+            <p class="artist-name">Drake</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Taylor_Swift_2019_by_Gage_Skidmore.jpg" alt="Taylor Swift">
+            <p class="artist-name">Taylor Swift</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Weeknd_2018.jpg" alt="The Weeknd">
+            <p class="artist-name">The Weeknd</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Ed_Sheeran_2015.jpg" alt="Ed Sheeran">
+            <p class="artist-name">Ed Sheeran</p>
+        </div>
+        <div class="artist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Kanye_West_2019.jpg" alt="Kanye West">
+            <p class="artist-name">Kanye West</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Spotify</p>
+        <div class="footer-links">
+            <a href="#">Legal</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a> | <a href="#">Ayuda</a>
+        </div>
+    </footer>
+
+</body>
+</html>
